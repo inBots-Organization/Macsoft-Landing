@@ -15,14 +15,14 @@ import { useTranslation } from "react-i18next";
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const location = useLocation();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const menuItems = [
-    { name: "Features", path: "/" }, // directing to home for demo
-    { name: "Developers", path: "#" },
-    { name: "Company", path: "#" },
-    { name: "Blog", path: "#" },
-    { name: "Changelog", path: "#" },
+    { name: t("navbar.features"), path: "/" }, // directing to home for demo
+    { name: t("navbar.developers"), path: "#" },
+    { name: t("navbar.company"), path: "#" },
+    { name: t("navbar.blog"), path: "#" },
+    { name: t("navbar.changelog"), path: "#" },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -35,7 +35,7 @@ export default function Navigation() {
     >
       <NavbarContent>
         <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+          aria-label={isMenuOpen ? t("navbar.closeMenu") : t("navbar.openMenu")}
           className="sm:hidden"
         />
         <NavbarBrand>
@@ -71,7 +71,7 @@ export default function Navigation() {
             to="/book-demo"
             variant="flat"
           >
-            Join waitlist
+            {t("navbar.joinWaitlist")}
           </Button>
         </NavbarItem>
         <NavbarItem>

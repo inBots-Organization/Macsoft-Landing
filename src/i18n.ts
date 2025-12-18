@@ -16,6 +16,18 @@ i18n
     resources: {
       en: {
         translation: {
+          // Navbar
+          navbar: {
+            features: "Features",
+            developers: "Developers",
+            company: "Company",
+            blog: "Blog",
+            changelog: "Changelog",
+            joinWaitlist: "Join waitlist",
+            openMenu: "Open menu",
+            closeMenu: "Close menu",
+          },
+
           // Hero Section
           hero: {
             title: "AI with",
@@ -123,6 +135,18 @@ i18n
       },
       ar: {
         translation: {
+          // Navbar
+          navbar: {
+            features: "الميزات",
+            developers: "المطورون",
+            company: "الشركة",
+            blog: "المدونة",
+            changelog: "التحديثات",
+            joinWaitlist: "انضم للقائمة",
+            openMenu: "فتح القائمة",
+            closeMenu: "إغلاق القائمة",
+          },
+
           // Hero Section
           hero: {
             title: "ذكاء اصطناعي",
@@ -193,8 +217,8 @@ i18n
               subtitle: "",
               description: "يراقب الأداء، يرصد الأنماط والشذوذ، ويعتمد مسارات العمل على مدار الساعة.",
             },
-            // liveAgentView: "[عرض الوكيل المباشر]",
-            // processing: "جاري المعالجة...",
+            liveAgentView: "[عرض الوكيل المباشر]",
+            processing: "جاري المعالجة...",
           },
 
           // Integrations Section

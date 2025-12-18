@@ -7,24 +7,24 @@ const FeaturesSection = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="w-full max-w-7xl px-4 sm:px-6">
+    <section className="w-full max-w-7xl px-3 xs:px-4 sm:px-6 py-6 xs:py-8 sm:py-12 md:py-16">
       {/* LIGHT BOW IMAGE */}
       <div className="w-full max-w-5xl relative opacity-80 mx-auto">
         <img alt="Light Bow Effect" className="w-full" src="/Light Bow.png" />
-        <div className="text-center absolute z-10 top-1/2 sm:top-2/3 md:top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:translate-y-0 px-4 sm:px-6 w-full">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 md:mb-6 leading-tight">
+        <div className="text-center absolute z-10 top-1/2 sm:top-2/3 md:top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:translate-y-0 px-3 xs:px-4 sm:px-6 w-full">
+          <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 xs:mb-3 sm:mb-4 md:mb-6 leading-tight">
             {t("features.title")}{" "}
             <span className="text-blue-500">
               {t("features.titleHighlight")}
             </span>
           </h2>
-          <p className="text-gray-400 text-xs sm:text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-400 text-[10px] xs:text-xs sm:text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
             {t("features.description")}
           </p>
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 relative my-6 sm:my-8 md:my-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 xs:gap-4 sm:gap-6 md:gap-8 relative my-4 xs:my-6 sm:my-8 md:my-10">
         <FeatureCard
           animationDelay="animate-card-1"
           borderColor="border-red-500/30"
