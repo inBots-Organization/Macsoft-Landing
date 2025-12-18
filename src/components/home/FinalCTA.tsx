@@ -7,7 +7,7 @@ const FinalCTA = () => {
   return (
     <section className="w-full px-4 sm:px-6 flex flex-col items-center overflow-hidden mt-15">
       {/* Bottom Light Effect Image */}
-      <div className="relative w-full max-w-6xl pointer-events-none">
+      <div className="relative w-full max-w-6xl">
         <img
           alt="Spotlight Glow"
           className="w-full h-auto"
@@ -23,10 +23,9 @@ const FinalCTA = () => {
             {t("cta.description")}
           </p>
 
-          <div className="relative inline-block group mb-6 sm:mb-8">
-            <div className="absolute inset-0 bg-blue-600 blur-xl sm:blur-2xl opacity-50 group-hover:opacity-70 transition-opacity pointer-events-none" />
+          <div className="inline-block  mb-6 sm:mb-8 z-10">
             <Button
-              className="relative bg-transparent hover:bg-blue-600/20 border-2 border-blue-500/50 hover:border-blue-400 text-white font-semibold px-8 sm:px-10 md:px-14 py-4 sm:py-5 md:py-7 text-sm sm:text-base md:text-lg transition-all duration-300 hover:scale-105"
+              className="bg-transparent hover:bg-blue-600/20 border-2 border-blue-500/50 hover:border-blue-400 text-white font-semibold px-8 sm:px-10 md:px-14 py-4 sm:py-5 md:py-7 text-sm sm:text-base md:text-lg transition-all duration-300 hover:scale-105"
               size="lg"
               variant="bordered"
             >
