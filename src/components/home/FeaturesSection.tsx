@@ -1,4 +1,3 @@
-import React from "react";
 import { FaShieldAlt, FaEye, FaChartLine } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 

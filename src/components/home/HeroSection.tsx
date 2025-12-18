@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, Card, CardHeader, CardBody, Avatar } from "@heroui/react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";

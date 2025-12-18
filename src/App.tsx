@@ -1,4 +1,4 @@
-import { Routes, Route, useLocation } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
@@ -9,7 +9,6 @@ import BuildAI from "./pages/BuildAI";
 
 // Scroll to top on route change component
 const ScrollToTop = () => {
-  const { pathname } = useLocation();
 
   // In a real app, use layout effect, but this suffices for demo
   if (typeof window !== "undefined") window.scrollTo(0, 0);
