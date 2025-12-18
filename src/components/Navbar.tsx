@@ -8,10 +8,6 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Button,
-  Dropdown,
-  DropdownTrigger,
-  DropdownMenu,
-  DropdownItem,
 } from "@heroui/react";
 import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
@@ -79,24 +75,13 @@ export default function Navigation() {
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Dropdown>
-            <DropdownTrigger>
-              <Button
-                className="bg-transparent text-gray-300 hover:text-white min-w-unit-12"
-                variant="light"
-                size="sm"
-              >
-                {i18n.language === 'ar' ? 'ع' : 'EN'}
-              </Button>
-            </DropdownTrigger>
-            <DropdownMenu
-              aria-label="Language selection"
-              onAction={(key) => i18n.changeLanguage(key as string)}
-            >
-              <DropdownItem key="en">English</DropdownItem>
-              <DropdownItem key="ar">العربية</DropdownItem>
-            </DropdownMenu>
-          </Dropdown>
+          <Button
+            className="bg-transparent text-blue-200 border border-blue-500/30 font-medium hover:bg-blue-900/20"
+            variant="flat"
+            onClick={() => i18n.changeLanguage(i18n.language === 'ar' ? 'en' : 'ar')}
+          >
+            {i18n.language === 'ar' ? 'ع' : 'EN'}
+          </Button>
         </NavbarItem>
       </NavbarContent>
 
