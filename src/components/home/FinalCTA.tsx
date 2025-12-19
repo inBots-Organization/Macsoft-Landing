@@ -13,8 +13,8 @@ const FinalCTA = () => {
           className="w-full h-auto"
           src="/light effect-02.png"
         />
-        <div className="relative text-center z-10 w-full px-2 xs:px-3 sm:px-4 md:px-6 -mt-[60%] xs:-mt-[50%] sm:-mt-[40%] md:absolute md:top-1/5 md:mt-0">
-          <h3 className="text-lg  sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 xs:mb-4 sm:mb-6 leading-tight">
+        <div className="relative text-center z-10 w-full px-2 xs:px-3 sm:px-4 md:px-6 -mt-[50%] xs:-mt-[45%] sm:-mt-[40%] md:absolute md:top-1/6 md:mt-0 lg:absolute lg:top-/7 lg:mt-0">
+          <h3 className="text-xl  sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-3 xs:mb-4 sm:mb-6 leading-tight">
             {t("cta.title")}
             <span className="text-blue-500">{t("cta.titleHighlight")}</span>
             {t("cta.titleRest")}
@@ -33,7 +33,7 @@ const FinalCTA = () => {
             </Button>
           </div>
 
-          <p className="text-xs sm:text-md text-gray-300 px-2 xs:px-4">
+          <p className="text-md sm:text-md text-gray-300 px-2 xs:px-4">
             {t("cta.footer")}
           </p>
         </div>

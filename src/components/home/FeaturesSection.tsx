@@ -11,8 +11,8 @@ const FeaturesSection = () => {
       {/* LIGHT BOW IMAGE */}
       <div className="w-full max-w-5xl relative opacity-80 mx-auto">
         <img alt="Light Bow Effect" className="w-full" src="/Light Bow.png" />
-        <div className="text-center absolute z-10 top-1/2 sm:top-2/3 md:top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:translate-y-0 px-3 xs:px-4 sm:px-6 w-full">
-          <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 xs:mb-3 sm:mb-4 md:mb-6 leading-tight">
+        <div className="text-center absolute z-10 top-3/4 sm:top-2/3 md:top-3/4 left-1/2 -translate-x-1/2 -translate-y-1/2 sm:translate-y-0 px-3 xs:px-4 sm:px-6 w-full">
+          <h2 className="text-xl xs:text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 xs:mb-3 sm:mb-4 md:mb-6 leading-tight">
             {t("features.title")}{" "}
             <span className="text-blue-500">
               {t("features.titleHighlight")}

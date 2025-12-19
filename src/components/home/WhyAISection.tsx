@@ -16,8 +16,8 @@ const WhyAISection = () => {
         </div>
 
         {/* "Why AI" Text Block */}
-        <div className="relative w-full pt-3 xs:pt-4 sm:pt-6 md:pt-8 pb-4 xs:pb-6 sm:pb-8 md:pb-10 z-20 px-2 xs:px-3 sm:px-4 md:absolute md:top-3/5">
-          <h2 className="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center font-bold mb-2 xs:mb-3 sm:mb-4">
+        <div className="relative w-full pt-3 xs:pt-4 sm:pt-2 md:pt-8 pb-4 xs:pb-6 sm:pb-8 md:pb-10 z-20 px-2 xs:px-3 sm:px-4 md:absolute md:top-3/5">
+          <h2 className="text-xl xs:text-3xl sm:text-4xl md:text-4xl lg:text-5xl text-center font-bold mb-2 xs:mb-3 sm:mb-4">
             {t("whyAI.title")}{" "}
             <span className="text-blue-500">{t("whyAI.titleHighlight")}</span>
           </h2>
