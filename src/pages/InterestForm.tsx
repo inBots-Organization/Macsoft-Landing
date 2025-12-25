@@ -370,7 +370,7 @@ export default function InterestForm() {
                     <div
                       ref={recaptchaRef}
                       className="g-recaptcha"
-                      data-sitekey="6LdfozYsAAAAAMlUKIoPCmotozQDs9PVfnJgnnzK"
+                      data-sitekey="6LccqzYsAAAAAFDy4_Er3alEuDBMLqaC7frvo5y_"
                     />
                   </motion.div>
                 )}
