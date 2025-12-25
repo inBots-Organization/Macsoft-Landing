@@ -131,6 +131,40 @@ i18n
             button: "See The Agents in Action",
             footer: "No \"rip-and-replace\" required. We deploy alongside your current systems.",
           },
+
+          // Interest Form
+          interest_form: {
+            title: "Join Our Journey",
+            subtitle: "We'd love to hear from you. Share your details and let's connect!",
+            fields: {
+              name: "Full Name",
+              email: "Email Address",
+              phone: "Phone Number",
+            },
+            placeholders: {
+              name: "John Doe",
+              email: "john@example.com",
+              phone: "+1 (555) 123-4567",
+            },
+            hints: {
+              phone: "Optional - We may call to discuss opportunities",
+            },
+            buttons: {
+              submit: "Submit Interest",
+              submitting: "Submitting...",
+              back: "Back to Home",
+            },
+            errors: {
+              required_name: "Name is required",
+              required_email: "Email is required",
+              invalid_email: "Please enter a valid email address",
+              invalid_phone: "Please enter a valid phone number",
+              captcha_required: "Please complete the reCAPTCHA verification",
+              submission_failed: "Something went wrong. Please try again.",
+            },
+            success_message: "Thank you for your interest! We'll be in touch soon.",
+            privacy_note: "Your information is secure and will never be shared with third parties.",
+          },
         },
       },
       ar: {
@@ -249,6 +283,40 @@ i18n
             description: "تجاوز مرحلة الوكلاء البسطاء. اعتمد نظاماً تشغيلياً قائماً على الوكلاء يتولّى التنفيذ والحوكمة.",
             button: "صمّم نظامك",
             footer: "لا حاجة لربط معقد. نعمل بجانب أنظمتك الحالية.",
+          },
+
+          // Interest Form
+          interest_form: {
+            title: "انضم إلى رحلتنا",
+            subtitle: "يسعدنا التواصل معك. شاركنا تفاصيلك ولنبدأ الحوار!",
+            fields: {
+              name: "الاسم الكامل",
+              email: "البريد الإلكتروني",
+              phone: "رقم الهاتف",
+            },
+            placeholders: {
+              name: "أحمد محمد",
+              email: "ahmad@example.com",
+              phone: "+966 50 123 4567",
+            },
+            hints: {
+              phone: "اختياري - قد نتصل لمناقشة الفرص",
+            },
+            buttons: {
+              submit: "إرسال الاهتمام",
+              submitting: "جاري الإرسال...",
+              back: "العودة للرئيسية",
+            },
+            errors: {
+              required_name: "الاسم مطلوب",
+              required_email: "البريد الإلكتروني مطلوب",
+              invalid_email: "يرجى إدخال عنوان بريد إلكتروني صحيح",
+              invalid_phone: "يرجى إدخال رقم هاتف صحيح",
+              captcha_required: "يرجى إكمال التحقق من reCAPTCHA",
+              submission_failed: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+            },
+            success_message: "شكراً لاهتمامك! سنتواصل معك قريباً.",
+            privacy_note: "معلوماتك آمنة ولن يتم مشاركتها مع أطراف ثالثة أبداً.",
           },
         },
       },

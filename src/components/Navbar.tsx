@@ -68,7 +68,7 @@ export default function Navigation() {
             as={Link}
             className="bg-blue-900/30 text-blue-200 border border-blue-500/30 font-medium"
             color="primary"
-            to="/book-demo"
+            to="/interest-form"
             variant="flat"
           >
             {t("navbar.joinWaitlist")}

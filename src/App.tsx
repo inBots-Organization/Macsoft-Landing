@@ -6,6 +6,7 @@ import Navigation from "./components/Navbar";
 import Home from "./pages/Home";
 import BookDemo from "./pages/BookDemo";
 import BuildAI from "./pages/BuildAI";
+import InterestForm from "./pages/InterestForm";
 
 // Scroll to top on route change component
 const ScrollToTop = () => {
@@ -34,6 +35,7 @@ export default function App() {
         <Route element={<Home />} path="/" />
         <Route element={<BookDemo />} path="/book-demo" />
         <Route element={<BuildAI />} path="/build-ai" />
+        <Route element={<InterestForm />} path="/interest-form" />
       </Routes>
     </main>
   );

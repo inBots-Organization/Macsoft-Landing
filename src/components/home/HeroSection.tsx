@@ -63,7 +63,7 @@ const HeroSection = () => {
               as={Link}
               className="bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white shadow-lg shadow-indigo-500/20 hover:shadow-indigo-500/40 font-semibold px-4 xs:px-6 sm:px-8 py-2 xs:py-3 text-xs xs:text-sm sm:text-base transition-all duration-300 hover:scale-105 w-full sm:w-auto"
               size="md"
-              to="/book-demo"
+              to="/interest-form"
             >
               {t("hero.bookDemo")} <FaArrowRight className="ml-1 xs:ml-2 text-xs xs:text-sm" />
             </Button>
@@ -71,7 +71,7 @@ const HeroSection = () => {
               as={Link}
               className="border-white/20 text-white hover:bg-white/5 hover:border-white/40 font-semibold px-4 xs:px-6 sm:px-8 py-2 xs:py-3 text-xs xs:text-sm sm:text-base transition-all duration-300 hover:scale-105 w-full sm:w-auto"
               size="md"
-              to="/build-ai"
+              to="/interest-form"
               variant="bordered"
             >
               {t("hero.buildAI")} <FaArrowRight className="ml-1 xs:ml-2 text-xs xs:text-sm" />
